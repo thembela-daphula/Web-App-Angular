@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AdminWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# Web-App-Angular
+>>>>>>> 645e4f0d19f7fbe616a5d3e1e71e5aea35c6b3d1
