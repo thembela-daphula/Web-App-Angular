@@ -1,0 +1,37 @@
+<head> 
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  
+  <body>
+   
+    
+  <section class="container-fluid bg">
+    <section class="row justify-content-center">
+  <section class="col-12 col-sm-6 col-md-3">
+  
+      <form class="form-container">
+      <div class="form-group">
+        <label for="eid">EmployeeID: </label>
+        <input type="eid" class="form-control" id="eid" #email aria-describedby="eid" placeholder="Enter email">
+        <small id="eid" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="password">Password: </label>
+        <input type="password" class="form-control" id="password" #password placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">Remember me</label>
+      </div>
+      <button type="submit" (click)="login(email.value, password.value)" class="btn btn-primary btn-block">Signin</button>
+    </form>
+  </section>
+    </section>
+  </section>
+  
+  </body>
+  
+  
+    
+  

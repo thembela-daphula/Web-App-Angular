@@ -1,0 +1,22 @@
+<app-nav></app-nav>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<br>
+<ngb-tabset>
+    <ngb-tab title="Members List">
+      <ng-template ngbTabContent>
+      <app-list></app-list>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle><b>Active Leave</b></ng-template>
+      <ng-template ngbTabContent>
+          <app-leave></app-leave>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="Add New Member" [disabled]="false">
+      <ng-template ngbTabContent>
+        <app-create></app-create>
+    </ng-template>
+    </ngb-tab>
+  </ngb-tabset>
