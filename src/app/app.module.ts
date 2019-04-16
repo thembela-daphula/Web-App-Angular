@@ -18,6 +18,10 @@ import {AngularFireModule} from '@angular/fire'
 import { AngularFireAuthModule } from "@angular/fire/auth"
 import { AngularFirestore } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
+import { SkillsComponent } from './skills/skills.component';
+import { MemberComponent } from './member/member.component';
+import { AddComponent } from './add/add.component';
+import { SkillsDetailsComponent } from './skills-details/skills-details.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { environment } from 'src/environments/environment';
     NavComponent,
     ProfileComponent,
     ProjectComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    SkillsComponent,
+    MemberComponent,
+    AddComponent,
+    SkillsDetailsComponent
   ],
   imports: [
     BrowserModule,

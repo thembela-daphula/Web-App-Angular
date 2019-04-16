@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
@@ -9,6 +9,8 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CreateProjectComponent } from './create-project/create-project.component';
 import { LeaveComponent } from './leave/leave.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SkillsDetailsComponent } from './skills-details/skills-details.component';
 
 const routes: Routes = [
 
@@ -46,6 +48,13 @@ const routes: Routes = [
   }, {
     path: 'leave',
     component: LeaveComponent
+  },
+  {
+    path:'skills',
+    component: SkillsComponent
+  },{
+    path:'skills-details',
+    component: SkillsDetailsComponent
   }
 
 ];

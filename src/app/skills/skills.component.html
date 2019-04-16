@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+
+<br>
+<ngb-tabset>
+    <ngb-tab title="Skills">
+      <ng-template ngbTabContent>
+        <br>
+        <br>
+      <app-member></app-member>
+     
+      </ng-template>
+    </ngb-tab>
+  
+    <ngb-tab title="Add Skill" [disabled]="false">
+      <ng-template ngbTabContent>
+      <app-add></app-add>
+    </ng-template>
+    </ngb-tab>
+
+
+  </ngb-tabset>
